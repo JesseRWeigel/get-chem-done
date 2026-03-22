@@ -1,0 +1,26 @@
+{
+  "name": "gcd-conventions",
+  "description": "Computational chemistry convention lock management",
+  "version": "0.1.0",
+  "transport": "stdio",
+  "module": "gcd.mcp.conventions_server",
+  "capabilities": [
+    "convention_set",
+    "convention_check",
+    "convention_diff",
+    "convention_list",
+    "convention_describe"
+  ],
+  "fields": [
+    "basis_set",
+    "functional",
+    "dispersion_correction",
+    "solvent_model",
+    "force_field",
+    "convergence_criteria",
+    "integration_grid",
+    "pseudopotential_ecp",
+    "thermodynamic_reference",
+    "unit_conventions"
+  ]
+}
