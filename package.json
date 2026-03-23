@@ -1,0 +1,26 @@
+{
+  "name": "get-chem-done",
+  "version": "0.1.0",
+  "description": "AI copilot for autonomous computational chemistry research",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JesseRWeigel/get-chem-done"
+  },
+  "bin": {
+    "get-chem-done": "bin/install.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "keywords": [
+    "chemistry",
+    "computational-chemistry",
+    "molecular-modeling",
+    "ai",
+    "research",
+    "autonomous",
+    "claude-code",
+    "mcp"
+  ]
+}
